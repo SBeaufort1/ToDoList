@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button{
+  color: brown ;
+  background-color: burlywood ;
+  font-family: serif;
+  padding: 10px 8px;
+  border-radius: 15px;
+  border-color: black;
+  box-shadow: 2px 2px #ff0000;
+  margin-left:10px ;
+}
+
+body{
+  background-image: url("https://cdn.vectorstock.com/i/1000x1000/34/26/old-blank-scroll-paper-and-feather-pen-vector-26133426.webp");
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  font-family: serif;
+  font-size: 45px;
+  text-shadow:2px 2px #ff0000;
+}
+
+form{
+  text-align: center;
+}
+
+input{
+  font-family: serif;
+  color:brown;
+  border: 2px solid red;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 2px 2px #ff0000;
+  font-size: 15px;
+
+}
+
+span{
+  font-family: serif;
+  color: brown;
+}
